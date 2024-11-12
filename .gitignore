@@ -1,0 +1,37 @@
+# Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Django migrations (we do not want to track migration files)
+*/migrations/
+
+# Django static files (optional, if you're not using version control for static assets)
+static/
+
+# Virtual environment (myenv is your virtual environment directory)
+myenv/
+
+# Database file (SQLite in this case)
+db.sqlite3
+
+# IDE and editor specific files (for PyCharm, VSCode, etc.)
+.idea/
+.vscode/
+
+# Media files (optional, if you have user-uploaded media you don't want to track)
+media/
+
+# Logs and temporary files
+*.log
+*.bak
+*.swp
+
+# OS specific files (e.g., macOS Finder, Windows thumbs.db, etc.)
+.DS_Store
+Thumbs.db
+
+# Ignore the manage.py file if you want to ignore all scripts (usually we do not ignore manage.py)
+manage.py
+
+# Ignore .env files if you're storing sensitive environment variables
+.env
