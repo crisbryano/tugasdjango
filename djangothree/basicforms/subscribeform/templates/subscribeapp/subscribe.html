@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscriber Registration</title>
+</head>
+<body>
+    <h2>Fill all the following word to subscribe</h2>
+    <div class="container">
+        <form method="post">
+            {{ form.as_p }}
+            {% csrf_token %}
+            <input type="submit" class="btn btn-primary" value="Submit">
+        </form>
+    </div>
+</body>
+</html>
